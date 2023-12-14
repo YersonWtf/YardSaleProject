@@ -25,6 +25,7 @@ body {
   height: 100vh;
   display: grid;
   place-items: center;
+  
 }
 
 
@@ -46,7 +47,7 @@ body {
   font-size: var(--lg);
   text-align: center;
   color: var(--black);
-  margin-bottom: 8px;
+  margin-bottom: 12px;
 }
 
 .subtitle{
@@ -54,7 +55,19 @@ body {
   font-weight: 300;
   color: var(--very-light-pink);
   text-align: center;
-  margin-bottom: 28px;
+  margin-bottom: 32px;
+}
+
+.card-email{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--text-input-field);
+  margin: 0 auto;
+  margin-bottom: 38px;
 }
 
 .label{
@@ -62,7 +75,7 @@ body {
   display: flex;
   font-size: var(--sd);
   font-weight: 700;
-  margin-bottom: 8px;
+  margin-bottom: 4px;
   margin-top: 18px;
 }
 
@@ -90,4 +103,21 @@ body {
   background: var(--hospital-green);
   font-size: var(--lg);
   border-radius: 8px;
+}
+
+.login-btn{
+  margin-bottom: 32px;
+}
+
+.email-link{
+  font-size: var(--sm);
+  text-align: center;
+  color: var(--dark);
+}
+
+.resend{
+  color: var(--hospital-green);
+  font-weight: 500;
+  text-decoration: none;
+  margin-left: 4px;
 }
